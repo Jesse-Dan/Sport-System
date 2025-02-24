@@ -1,0 +1,621 @@
+<!DOCTYPE html>
+<html dir="ltr" xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <meta name="x-apple-disable-message-reformatting">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+
+    <style>
+        @font-face {
+            font-family: 'Outfit';
+            font-style: normal;
+            font-weight: 300;
+            font-display: swap;
+            src: url('https://fonts.gstatic.com/s/outfit/v4/QGYpz_wNahGAdqQ43R9yJHLt.ttf') format('truetype');
+        }
+
+        @font-face {
+            font-family: 'Outfit';
+            font-style: normal;
+            font-weight: 400;
+            font-display: swap;
+            src: url('https://fonts.gstatic.com/s/outfit/v4/QGYpz_wNahGAdqQ43R9yJHLt.ttf') format('truetype');
+        }
+
+        @font-face {
+            font-family: 'Outfit';
+            font-style: normal;
+            font-weight: 500;
+            font-display: swap;
+            src: url('https://fonts.gstatic.com/s/outfit/v4/QGYpz_wNahGAdqQ43R9yJHLt.ttf') format('truetype');
+        }
+
+        @font-face {
+            font-family: 'Outfit';
+            font-style: normal;
+            font-weight: 600;
+            font-display: swap;
+            src: url('https://fonts.gstatic.com/s/outfit/v4/QGYpz_wNahGAdqQ43R9yJHLt.ttf') format('truetype');
+        }
+
+        @media (max-width: 540px) {
+            .inner-section {
+                width: 100vw !important;
+            }
+
+            .top-content {
+                width: 90% !important;
+            }
+
+            .top-content td {
+                padding-left: 0 !important;
+                padding-right: 0 !important;
+            }
+
+            .top-content h3 {
+                font-size: 30px !important;
+                line-height: 36px !important;
+            }
+
+            #logo {
+                padding-top: 20px !important;
+                padding-bottom: 20px !important;
+            }
+
+            #logo img {
+                width: 140px !important;
+                height: 35px !important;
+            }
+
+            #celebration img {
+                width: 130px !important;
+            }
+        }
+
+        @media only screen and (max-width: 620px) {
+            table[class=body] h1 {
+                font-size: 28px !important;
+                margin-bottom: 10px !important;
+            }
+
+            table[class=body] p,
+            table[class=body] ul,
+            table[class=body] ol,
+            table[class=body] td,
+            table[class=body] span,
+            table[class=body] a {
+                font-size: 16px !important;
+            }
+
+            table[class=body] .wrapper,
+            table[class=body] .article {
+                padding: 10px !important;
+            }
+
+            table[class=body] .content {
+                padding: 0 !important;
+            }
+
+            table[class=body] .container {
+                padding: 0 !important;
+                width: 100% !important;
+            }
+
+            table[class=body] .main {
+                border-left-width: 0 !important;
+                border-radius: 0 !important;
+                border-right-width: 0 !important;
+            }
+
+            table[class=body] .btn table {
+                width: 100% !important;
+            }
+
+            table[class=body] .btn a {
+                width: 100% !important;
+            }
+
+            table[class=body] .img-responsive {
+                height: auto !important;
+                max-width: 100% !important;
+                width: auto !important;
+            }
+        }
+
+        @media all {
+            .ExternalClass {
+                width: 100%;
+            }
+
+            .ExternalClass,
+            .ExternalClass p,
+            .ExternalClass span,
+            .ExternalClass font,
+            .ExternalClass td,
+            .ExternalClass div {
+                line-height: 100%;
+            }
+
+            .apple-link a {
+                color: inherit !important;
+                font-family: inherit !important;
+                font-size: inherit !important;
+                font-weight: inherit !important;
+                line-height: inherit !important;
+                text-decoration: none !important;
+            }
+        }
+
+        @media (prefers-color-scheme: dark) {
+            .wrapper {
+                width: 100%;
+                table-layout: fixed;
+                background-color: #EEF1FB !important;
+
+            }
+
+            .main {
+                background-color: #ffffff !important;
+                margin: 0 auto;
+                width: 100%;
+                max-width: 540px;
+                border-spacing: 0;
+                color: #4a4a4a;
+                font-family: outfit, sans-serif;
+                padding: 0%;
+                box-shadow: 0 0 25px rgba(0, 0, 0, 0.15);
+            }
+
+            .top-content {
+                p {
+                    color: #fff !important;
+                }
+            }
+        }
+    </style>
+</head>
+
+<body data-id="__react-email-body"
+      style="margin: 0; font-family: outfit, sans-serif; font-weight: 300; -webkit-font-smoothing: antialiased; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%;">
+<center class="wrapper" style="width: 100%; table-layout: fixed; background-color: #EEF1FB;">
+    <table role="presentation" width="100%" cellspacing="0" cellpadding="0"
+           style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; margin: 0 auto; width: 100%; max-width: 540px; border-spacing: 0; color: #4a4a4a; padding: 0%; font-family: 'Outfit', Arial, sans-serif; background-color: #EEF1FB;"
+           class="main" data-id="__react-email-container" bgcolor="#EEF1FB">
+        <tbody>
+        <tr>
+            <td style="padding: 0;">
+                <table role="presentation" align="center" width="100%"
+                       style="border-spacing: 0; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding-top: 32px; padding-bottom: 28px;"
+                       id="logo">
+                    <tbody>
+                    <tr>
+                        <td align="center" style="padding: 0;">
+                            <a href="https://golviasports.com">
+                                <img data-id="react-email-img"
+                                     src="https://res.cloudinary.com/dvu4qhyqq/image/upload/logo_pocmgc.png"
+                                     srcset="https://res.cloudinary.com/dvu4qhyqq/image/upload/logo_vpxhpa.svg" alt width="152"
+                                     height="40">
+                            </a>
+                        </td>
+                    </tr>
+                    </tbody>
+                </table>
+
+                <table role="presentation" width="540px" align="center"
+                       style="border-spacing: 0; mso-table-lspace: 0pt; mso-table-rspace: 0pt; overflow-x: hidden;"
+                       class="inner-section">
+                    <tbody>
+                    <tr>
+                        <td style="padding: 0;">
+
+                            <table role="presentation" width="100%" cellspacing="0" cellpadding="0" align="center"
+                                   style="border-spacing: 0; mso-table-lspace: 0pt; mso-table-rspace: 0pt; position: relative; background-color: #145CF5; background-image: url(https://res.cloudinary.com/dvu4qhyqq/image/upload/v1734092115/bgc_mskhhh.png); background-size: cover; background-position: 100% 0; background-repeat: no-repeat; color: #fff; overflow: hidden;"
+                                   bgcolor="#145CF5"
+                                   background="https://res.cloudinary.com/dvu4qhyqq/image/upload/v1734092115/bgc_mskhhh.png">
+                                <tbody>
+                                <tr>
+                                    <td style="padding: 0; overflow: hidden;">
+
+                                        <table role="presentation" width="87%" cellspacing="0" cellpadding="0" align="center"
+                                               class="top-content"
+                                               style="border-spacing: 0; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding-bottom: 50px; padding-top: 40px; position: relative; overflow: hidden;">
+                                            <tbody>
+
+                                            <tr>
+                                                <td align="center" id="celebration" style="padding: 0;">
+
+
+                                                        <img data-id="react-email-img"
+                                                             src="https://res.cloudinary.com/dvu4qhyqq/image/upload/celebration_ueyggi.png"
+                                                             alt style="width:25%">
+
+
+                                                </td>
+                                            </tr>
+
+                                            <tr>
+                                                <td align="center" style="padding: 0; padding-top: 35px; padding-bottom: 25px;">
+                                                    <p data-id="react-email-text" id="greeting"
+                                                       style="margin: 0; font-size: 20px; font-weight: 400; color: #fff !important;">
+                                                        Hello <th:block th:text="${name}"></th:block>,
+                                                    </p>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td align="center"
+                                                    style="padding: 0; padding-bottom: 46px; padding-left: 35px; padding-right: 35px;">
+                                                    <img
+                                                            src="https://res.cloudinary.com/dvu4qhyqq/image/upload/v1734095807/Group_2_mlqb2b.png"
+                                                            style="width:100%">
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td align="center" style="padding: 0; padding-left: 40px; padding-right: 40px;">
+                                                    <p data-id="react-email-text" style="margin: 0; font-size: 18px; color: #fff !important;">
+                                                        You are now part of a growing community
+                                                        connecting athletes, talents, scouts, clubs,
+                                                        fans and agencies across Africa.
+                                                    </p>
+                                                    <p data-id="react-email-text"
+                                                       style="margin: 0; font-size: 18px; padding-top: 20px; color: #fff;">
+                                                        Whether you are here to showcase your
+                                                        skills, find emerging talents or take your
+                                                        career to the next level, Golvia is here to
+                                                        support you every step of the way.
+                                                    </p>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td align="center" style="padding: 0; padding-top: 80px;">
+                                                    <img data-id="react-email-img"
+                                                         src="https://res.cloudinary.com/dvu4qhyqq/image/upload/network-map_dlmrwc.png"
+                                                         srcset="https://res.cloudinary.com/dvu4qhyqq/image/upload/network-map_h3hlpe.svg"
+                                                         width="90%">
+                                                </td>
+                                            </tr>
+                                            </tbody>
+                                        </table>
+                                    </td>
+                                </tr>
+                                </tbody>
+                            </table>
+
+                            <table role="presentation" cellspacing="0" cellpadding="0" align="center"
+                                   style="border-spacing: 0; mso-table-lspace: 0pt; mso-table-rspace: 0pt; background-color: #fff; color: #fff; padding-bottom: 60px;"
+                                   bgcolor="#fff">
+                                <tbody>
+                                <tr>
+                                    <td align="center" style="padding: 0;">
+                                        <table role="presentation" width="90%" cellspacing="0" cellpadding="0"
+                                               style="border-spacing: 0; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding-top: 40px; color: #111111EB;">
+                                            <tbody>
+                                            <tr>
+                                                <td align="center" style="padding: 0; padding-bottom: 32px;">
+                                                    <h5 data-id="react-email-text" style="margin:0; font-size:20px; font-weight: 600;">
+                                                        Here is what you can explore right away:
+
+                                                    </h5>
+                                                </td>
+                                            </tr>
+
+                                            <tr>
+                                                <td style="padding: 0; padding-bottom: 40px;">
+                                                    <table role="presentation" align="left"
+                                                           style="border-spacing: 0; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding-right: 20px;">
+                                                        <tbody>
+                                                        <tr>
+                                                            <td align="center" width="50px" style="padding: 0;">
+                                                                <img data-id="react-email-img"
+                                                                     src="https://res.cloudinary.com/dvu4qhyqq/image/upload/profile_ywnlgf.png"
+                                                                     srcset="https://res.cloudinary.com/dvu4qhyqq/image/upload/profile_xp08nc.svg"
+                                                                     width="40px" height="40px">
+                                                            </td>
+                                                        </tr>
+                                                        </tbody>
+                                                    </table>
+                                                    <table role="presentation"
+                                                           style="border-spacing: 0; mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+                                                        <tr>
+                                                            <td style="padding: 0;">
+                                                                <p data-id="react-email-text"
+                                                                   style="margin: 0; font-size: 18px; font-weight: 600;">
+                                                                    Create and showcase your profile
+                                                                </p>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td style="padding: 0;">
+                                                                <p data-id="react-email-text"
+                                                                   style="margin: 0; font-size: 16px; font-weight: 300; margin-top: 5px;">
+                                                                    Build your athlete or scout profile and make
+                                                                    a powerful first impression. If you are a fan,
+                                                                    engage with your favorite athletes right away!
+                                                                </p>
+                                                            </td>
+                                                        </tr>
+                                                    </table>
+                                                </td>
+                                            </tr>
+
+                                            <tr>
+                                                <td style="padding: 0; padding-bottom: 40px;">
+                                                    <table role="presentation" align="left"
+                                                           style="border-spacing: 0; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding-right: 20px;">
+                                                        <tbody>
+                                                        <tr>
+                                                            <td data-id="react-email-text" align="center" width="50px"
+                                                                style="padding: 0;">
+                                                                <img
+                                                                        src="https://res.cloudinary.com/dvu4qhyqq/image/upload/engage_zc6tba.png"
+                                                                        srcset="https://res.cloudinary.com/dvu4qhyqq/image/upload/engage_mynnnq.svg"
+                                                                        width="40px" height="40px">
+                                                            </td>
+                                                        </tr>
+                                                        </tbody>
+                                                    </table>
+                                                    <table role="presentation"
+                                                           style="border-spacing: 0; mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+                                                        <tr>
+                                                            <td style="padding: 0;">
+                                                                <p data-id="react-email-text"
+                                                                   style="margin: 0; font-size: 18px; font-weight: 600;">
+                                                                    Engage with opportunities
+                                                                </p>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td style="padding: 0;">
+                                                                <p data-id="react-email-text"
+                                                                   style="margin: 0; font-size: 16px; font-weight: 300; margin-top: 5px;">
+                                                                    As a scout or sport organization, discover talents,
+                                                                    events and promote your own events or find
+                                                                    upcoming trials as an athlete.
+                                                                </p>
+                                                            </td>
+                                                        </tr>
+                                                    </table>
+                                                </td>
+                                            </tr>
+
+                                            <tr>
+                                                <td style="padding: 0; padding-bottom: 40px;">
+                                                    <table role="presentation" align="left"
+                                                           style="border-spacing: 0; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding-right: 20px;">
+                                                        <tbody>
+                                                        <tr>
+                                                            <td align="center" width="50px" style="padding: 0;">
+                                                                <img
+                                                                        src="https://res.cloudinary.com/dvu4qhyqq/image/upload/track_zxdg5v.png"
+                                                                        srcset="https://res.cloudinary.com/dvu4qhyqq/image/upload/track_uroizl.svg"
+                                                                        width="40px" height="40px">
+                                                            </td>
+                                                        </tr>
+                                                        </tbody>
+                                                    </table>
+                                                    <table role="presentation"
+                                                           style="border-spacing: 0; mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+                                                        <tr>
+                                                            <td style="padding: 0;">
+                                                                <p data-id="react-email-text"
+                                                                   style="margin: 0; font-size: 18px; font-weight: 600;">
+                                                                    Track and improve performance
+                                                                </p>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td style="padding: 0;">
+                                                                <p style="margin: 0; font-size: 16px; font-weight: 300; margin-top: 5px;">
+                                                                    Utilize coaching support and resources designed to
+                                                                    help you enhance your skills and stay ahead.
+                                                                </p>
+                                                            </td>
+                                                        </tr>
+                                                    </table>
+                                                </td>
+                                            </tr>
+
+                                            <tr>
+                                                <td style="padding: 0; padding-bottom: 40px;">
+                                                    <table role="presentation" align="left"
+                                                           style="border-spacing: 0; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding-right: 20px;">
+                                                        <tbody>
+                                                        <tr>
+                                                            <td align="center" width="50px" style="padding: 0;">
+                                                                <img
+                                                                        src="https://res.cloudinary.com/dvu4qhyqq/image/upload/exclusive_fngwld.png"
+                                                                        srcset="https://res.cloudinary.com/dvu4qhyqq/image/upload/exclusive_fqvsfx.svg"
+                                                                        width="40px" height="40px">
+                                                            </td>
+                                                        </tr>
+                                                        </tbody>
+                                                    </table>
+                                                    <table role="presentation"
+                                                           style="border-spacing: 0; mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+                                                        <tr>
+                                                            <td style="padding: 0;">
+                                                                <p data-id="react-email-text"
+                                                                   style="margin: 0; font-size: 18px; font-weight: 600;">
+                                                                    Get access to exclusive content
+                                                                </p>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td style="padding: 0;">
+                                                                <p data-id="react-email-text"
+                                                                   style="margin: 0; font-size: 16px; font-weight: 300; margin-top: 5px;">
+                                                                    Get access to exclusive content from your favorite
+                                                                    athletes and follow their journey to stardom.
+                                                                </p>
+                                                            </td>
+                                                        </tr>
+                                                    </table>
+                                                </td>
+                                            </tr>
+
+                                            <tr>
+                                                <td style="padding: 0; padding-bottom: 40px;">
+                                                    <table role="presentation" align="left"
+                                                           style="border-spacing: 0; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding-right: 20px;">
+                                                        <tbody>
+                                                        <tr>
+                                                            <td align="center" width="50px" style="padding: 0;">
+                                                                <img
+                                                                        src="https://res.cloudinary.com/dvu4qhyqq/image/upload/livescore_cfm21x.png"
+                                                                        srcset="https://res.cloudinary.com/dvu4qhyqq/image/upload/livescore_wu5q0n.svg"
+                                                                        width="40px" height="40px">
+                                                            </td>
+                                                        </tr>
+                                                        </tbody>
+                                                    </table>
+                                                    <table role="presentation"
+                                                           style="border-spacing: 0; mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+                                                        <tr>
+                                                            <td style="padding: 0;">
+                                                                <p data-id="react-email-text"
+                                                                   style="margin: 0; font-size: 18px; font-weight: 600;">
+                                                                    Get live updates across all sports
+                                                                </p>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td style="padding: 0;">
+                                                                <p data-id="react-email-text"
+                                                                   style="margin: 0; font-size: 16px; font-weight: 300; margin-top: 5px;">
+                                                                    Immerse yourself in the action with live scores
+                                                                    and real-time alerts for key moments.
+                                                                </p>
+                                                            </td>
+                                                        </tr>
+                                                    </table>
+                                                </td>
+                                            </tr>
+
+                                            <tr>
+                                                <td align="center" style="padding: 0;">
+                                                    <button
+                                                            style="padding: 0 36px; height: 50px; border-radius: 36px; background-color: #145CF5; border: none; color: #fff; font-size: 16px; font-weight: 400; font-family: 'Outfit', Arial, sans-serif;">
+                                                        <a href="https://golviasports.com" style="text-decoration: none; color: #fff;">
+                                                            Start Exploring the App
+                                                        </a>
+                                                    </button>
+                                                </td>
+                                            </tr>
+                                            </tbody>
+                                        </table>
+
+                                        <table role="presentation" width="100%"
+                                               style="border-spacing: 0; mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+                                            <tbody>
+                                            <tr>
+                                                <td style="padding: 0; padding-top: 60px; padding-bottom: 60px;">
+                                                    <hr style="border: 1px solid #A9BCE0;">
+                                                </td>
+                                            </tr>
+                                            </tbody>
+                                        </table>
+
+                                        <table role="presentation" width="80%"
+                                               style="border-spacing: 0; mso-table-lspace: 0pt; mso-table-rspace: 0pt; color: #111111EB;">
+                                            <tbody>
+                                            <tr>
+                                                <td align="center" style="padding: 0;">
+                                                    <p data-id="react-email-text"
+                                                       style="margin: 0; padding-bottom: 30px; font-size: 16px; font-weight: 300; width: 90%;">
+                                                        <b style="font-weight: 600;">Need help?</b> Our support team is ready to assist
+                                                        you. Reply to this email, or reach us directly
+                                                        at <a href="mailto:support@gol-via.com"
+                                                              style="color: #145CF5; font-weight: 600;">support@gol-via.com</a>
+                                                    </p>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td align="center" style="padding: 0;">
+                                                    <p data-id="react-email-text" style="font-size: 16px; font-weight: 300;">
+                                                        Let’s make your goals a reality! Score your dream goal.
+                                                        <span style="display: block;">The Golvia team.</span>
+                                                    </p>
+                                                </td>
+                                            </tr>
+                                            </tbody>
+                                        </table>
+
+                                    </td>
+                                </tr>
+                                </tbody>
+                            </table>
+
+                        </td>
+                    </tr>
+                    </tbody>
+                </table>
+
+
+
+            </td>
+        </tr>
+        </tbody>
+    </table>
+    <table role="presentation" cellspacing="0" cellpadding="0" align="center"
+           style="border-spacing: 0; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding-top: 32px; padding-bottom: 50px;">
+        <tbody>
+        <tr>
+            <td align="center" style="padding: 0;">
+                <table role="presentation" style="border-spacing: 0; mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+                    <tr>
+                        <td style="padding: 0;">
+                            <p data-id="react-email-text"
+                               style="margin: 0; font-size: 14px; font-weight: 300; color: #111111EB; margin-bottom: 10px; font-family: outfit;">
+                                Find us
+                                online</p>
+                        </td>
+                    </tr>
+                </table>
+
+                <table role="presentation" cellspacing="16"
+                       style="border-spacing: 0; mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+                    <tr>
+                        <div style="display:flex; column-gap:10px; align-items: center; ">
+                            <div width="35">
+                                <a href="https://www.instagram.com/golvia.in">
+                                    <img src="https://res.cloudinary.com/dvu4qhyqq/image/upload/instagram_bonioq.png"
+                                         srcset="https://res.cloudinary.com/dvu4qhyqq/image/upload/instagram_kvvlms.svg" alt="instagram"
+                                         width="35" height="35">
+                                </a>
+                            </div>
+                            <div>
+                                <a href="https://x.com/golviainc">
+                                    <img src="https://res.cloudinary.com/dvu4qhyqq/image/upload/x_cgzy2b.png"
+                                         srcset="https://res.cloudinary.com/dvu4qhyqq/image/upload/x_it78wz.svg" alt="x" width="35"
+                                         height="35">
+                                </a>
+                            </div>
+                            <div>
+                                <a href="https://www.linkedin.com/company/golvia-inc">
+                                    <img src="https://res.cloudinary.com/dvu4qhyqq/image/upload/linkedin_ton6zc.png"
+                                         srcset="https://res.cloudinary.com/dvu4qhyqq/image/upload/linkedin_bx7bqh.svg" alt="x"
+                                         width="35" height="35">
+                                </a>
+                            </div>
+                            <div>
+                                <a href="https://www.tiktok.com/@golvia.inc">
+                                    <img src="https://res.cloudinary.com/dvu4qhyqq/image/upload/tiktok_jqkktx.png"
+                                         srcset="https://res.cloudinary.com/dvu4qhyqq/image/upload/tittok_cjxeco.svg" alt="x" width="35"
+                                         height="35">
+                                </a>
+                            </div>
+                        </div>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        </tbody>
+    </table>
+</center>
+</body>
+
+</html>
